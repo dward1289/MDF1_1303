@@ -18,14 +18,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //List for TableView
     theList = [NSArray arrayWithObjects: @"Johnny Cage", @"Scorpion", @"Sub-Zero", @"Jade", @"Kitana", @"Mileena", @"Smoke", @"Kung Lao", @"Sheeva", @"Sindel", @"Stryker", @"Shinnok", @"Tanya", @"Ashrah", @"Onaga", @"Baraka", @"Noob Saibot", @"Shao Khan", @"Jax", @"Rain", nil];
 }
 
+    //Counts items in the array
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [theList count];
 }
 
+    //Displays the data in the TableView
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
