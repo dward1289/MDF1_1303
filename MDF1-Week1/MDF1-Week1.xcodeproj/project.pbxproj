@@ -20,6 +20,8 @@
 		F41383D516E5A7B20031EE97 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41383D316E5A7B20031EE97 /* ViewController.xib */; };
 		F41383E316E5A83B0031EE97 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41383E116E5A83B0031EE97 /* SecondViewController.m */; };
 		F41383E416E5A83B0031EE97 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41383E216E5A83B0031EE97 /* SecondViewController.xib */; };
+		F41E4AB716E783CF000871F4 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41E4AB616E783CF000871F4 /* CustomTableCell.xib */; };
+		F41E4ABA16E78418000871F4 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41E4AB916E78418000871F4 /* CustomTableCell.m */; };
 		F4CBD58216E6F112001EE8F4 /* Ashrah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD56E16E6F112001EE8F4 /* Ashrah.jpg */; };
 		F4CBD58316E6F112001EE8F4 /* Baraka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD56F16E6F112001EE8F4 /* Baraka.jpg */; };
 		F4CBD58416E6F112001EE8F4 /* Cage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57016E6F112001EE8F4 /* Cage.jpg */; };
@@ -62,6 +64,9 @@
 		F41383E016E5A83B0031EE97 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F41383E116E5A83B0031EE97 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F41383E216E5A83B0031EE97 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		F41E4AB616E783CF000871F4 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		F41E4AB816E78418000871F4 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		F41E4AB916E78418000871F4 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 		F4CBD56E16E6F112001EE8F4 /* Ashrah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashrah.jpg; sourceTree = "<group>"; };
 		F4CBD56F16E6F112001EE8F4 /* Baraka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Baraka.jpg; sourceTree = "<group>"; };
 		F4CBD57016E6F112001EE8F4 /* Cage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cage.jpg; sourceTree = "<group>"; };
@@ -153,6 +158,9 @@
 				F41383D016E5A7B20031EE97 /* ViewController.h */,
 				F41383D116E5A7B20031EE97 /* ViewController.m */,
 				F41383D316E5A7B20031EE97 /* ViewController.xib */,
+				F41E4AB616E783CF000871F4 /* CustomTableCell.xib */,
+				F41E4AB816E78418000871F4 /* CustomTableCell.h */,
+				F41E4AB916E78418000871F4 /* CustomTableCell.m */,
 				F41383E016E5A83B0031EE97 /* SecondViewController.h */,
 				F41383E116E5A83B0031EE97 /* SecondViewController.m */,
 				F41383E216E5A83B0031EE97 /* SecondViewController.xib */,
@@ -252,6 +260,7 @@
 				F4CBD59316E6F112001EE8F4 /* Stryker.jpg in Resources */,
 				F4CBD59416E6F112001EE8F4 /* Tanya.jpg in Resources */,
 				F4CBD59516E6F112001EE8F4 /* Zero.jpg in Resources */,
+				F41E4AB716E783CF000871F4 /* CustomTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 				F41383C916E5A7B20031EE97 /* AppDelegate.m in Sources */,
 				F41383D216E5A7B20031EE97 /* ViewController.m in Sources */,
 				F41383E316E5A83B0031EE97 /* SecondViewController.m in Sources */,
+				F41E4ABA16E78418000871F4 /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +358,7 @@
 		F41383D916E5A7B20031EE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDF1-Week1/MDF1-Week1-Prefix.pch";
 				INFOPLIST_FILE = "MDF1-Week1/MDF1-Week1-Info.plist";
@@ -359,6 +370,7 @@
 		F41383DA16E5A7B20031EE97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDF1-Week1/MDF1-Week1-Prefix.pch";
 				INFOPLIST_FILE = "MDF1-Week1/MDF1-Week1-Info.plist";

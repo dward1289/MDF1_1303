@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustomTableCell.h"
 
 @interface ViewController ()
 
@@ -38,10 +39,12 @@
     
     static NSString *identifier = @"identify";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    CustomTableCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    if (cell == nil)
+    {
+        NSArray *omg = [[NSBundle mainBundle] loadNibNamed:@"CustomTableCell" owner:self options:nil];
+        cell = [omg objectAtIndex:0];
     }
     
     cell.textLabel.text = [theList objectAtIndex:indexPath.row];
@@ -58,6 +61,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 96;
+}
 
 @end
