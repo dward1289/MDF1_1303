@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     NSArray *theList;
+    NSArray *theImage;
 }
 
 @end

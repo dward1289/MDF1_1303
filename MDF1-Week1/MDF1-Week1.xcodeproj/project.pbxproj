@@ -20,6 +20,26 @@
 		F41383D516E5A7B20031EE97 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41383D316E5A7B20031EE97 /* ViewController.xib */; };
 		F41383E316E5A83B0031EE97 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41383E116E5A83B0031EE97 /* SecondViewController.m */; };
 		F41383E416E5A83B0031EE97 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41383E216E5A83B0031EE97 /* SecondViewController.xib */; };
+		F4CBD58216E6F112001EE8F4 /* Ashrah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD56E16E6F112001EE8F4 /* Ashrah.jpg */; };
+		F4CBD58316E6F112001EE8F4 /* Baraka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD56F16E6F112001EE8F4 /* Baraka.jpg */; };
+		F4CBD58416E6F112001EE8F4 /* Cage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57016E6F112001EE8F4 /* Cage.jpg */; };
+		F4CBD58516E6F112001EE8F4 /* Jade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57116E6F112001EE8F4 /* Jade.jpg */; };
+		F4CBD58616E6F112001EE8F4 /* Jax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57216E6F112001EE8F4 /* Jax.jpg */; };
+		F4CBD58716E6F112001EE8F4 /* Kitana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57316E6F112001EE8F4 /* Kitana.jpg */; };
+		F4CBD58816E6F112001EE8F4 /* Kung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57416E6F112001EE8F4 /* Kung.jpg */; };
+		F4CBD58916E6F112001EE8F4 /* Mileena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57516E6F112001EE8F4 /* Mileena.jpg */; };
+		F4CBD58A16E6F112001EE8F4 /* Noob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57616E6F112001EE8F4 /* Noob.jpg */; };
+		F4CBD58B16E6F112001EE8F4 /* Onaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57716E6F112001EE8F4 /* Onaga.jpg */; };
+		F4CBD58C16E6F112001EE8F4 /* Rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57816E6F112001EE8F4 /* Rain.jpg */; };
+		F4CBD58D16E6F112001EE8F4 /* Scorpion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57916E6F112001EE8F4 /* Scorpion.jpg */; };
+		F4CBD58E16E6F112001EE8F4 /* Shao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57A16E6F112001EE8F4 /* Shao.jpg */; };
+		F4CBD58F16E6F112001EE8F4 /* Sheeva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57B16E6F112001EE8F4 /* Sheeva.jpg */; };
+		F4CBD59016E6F112001EE8F4 /* Shinnok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57C16E6F112001EE8F4 /* Shinnok.jpg */; };
+		F4CBD59116E6F112001EE8F4 /* Sindel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57D16E6F112001EE8F4 /* Sindel.jpg */; };
+		F4CBD59216E6F112001EE8F4 /* Smoke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57E16E6F112001EE8F4 /* Smoke.jpg */; };
+		F4CBD59316E6F112001EE8F4 /* Stryker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD57F16E6F112001EE8F4 /* Stryker.jpg */; };
+		F4CBD59416E6F112001EE8F4 /* Tanya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD58016E6F112001EE8F4 /* Tanya.jpg */; };
+		F4CBD59516E6F112001EE8F4 /* Zero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CBD58116E6F112001EE8F4 /* Zero.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +62,26 @@
 		F41383E016E5A83B0031EE97 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F41383E116E5A83B0031EE97 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F41383E216E5A83B0031EE97 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		F4CBD56E16E6F112001EE8F4 /* Ashrah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashrah.jpg; sourceTree = "<group>"; };
+		F4CBD56F16E6F112001EE8F4 /* Baraka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Baraka.jpg; sourceTree = "<group>"; };
+		F4CBD57016E6F112001EE8F4 /* Cage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cage.jpg; sourceTree = "<group>"; };
+		F4CBD57116E6F112001EE8F4 /* Jade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jade.jpg; sourceTree = "<group>"; };
+		F4CBD57216E6F112001EE8F4 /* Jax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jax.jpg; sourceTree = "<group>"; };
+		F4CBD57316E6F112001EE8F4 /* Kitana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kitana.jpg; sourceTree = "<group>"; };
+		F4CBD57416E6F112001EE8F4 /* Kung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kung.jpg; sourceTree = "<group>"; };
+		F4CBD57516E6F112001EE8F4 /* Mileena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mileena.jpg; sourceTree = "<group>"; };
+		F4CBD57616E6F112001EE8F4 /* Noob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noob.jpg; sourceTree = "<group>"; };
+		F4CBD57716E6F112001EE8F4 /* Onaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Onaga.jpg; sourceTree = "<group>"; };
+		F4CBD57816E6F112001EE8F4 /* Rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rain.jpg; sourceTree = "<group>"; };
+		F4CBD57916E6F112001EE8F4 /* Scorpion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scorpion.jpg; sourceTree = "<group>"; };
+		F4CBD57A16E6F112001EE8F4 /* Shao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shao.jpg; sourceTree = "<group>"; };
+		F4CBD57B16E6F112001EE8F4 /* Sheeva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sheeva.jpg; sourceTree = "<group>"; };
+		F4CBD57C16E6F112001EE8F4 /* Shinnok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shinnok.jpg; sourceTree = "<group>"; };
+		F4CBD57D16E6F112001EE8F4 /* Sindel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sindel.jpg; sourceTree = "<group>"; };
+		F4CBD57E16E6F112001EE8F4 /* Smoke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Smoke.jpg; sourceTree = "<group>"; };
+		F4CBD57F16E6F112001EE8F4 /* Stryker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stryker.jpg; sourceTree = "<group>"; };
+		F4CBD58016E6F112001EE8F4 /* Tanya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tanya.jpg; sourceTree = "<group>"; };
+		F4CBD58116E6F112001EE8F4 /* Zero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zero.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +128,26 @@
 		F41383BE16E5A7B20031EE97 /* MDF1-Week1 */ = {
 			isa = PBXGroup;
 			children = (
+				F4CBD56E16E6F112001EE8F4 /* Ashrah.jpg */,
+				F4CBD56F16E6F112001EE8F4 /* Baraka.jpg */,
+				F4CBD57016E6F112001EE8F4 /* Cage.jpg */,
+				F4CBD57116E6F112001EE8F4 /* Jade.jpg */,
+				F4CBD57216E6F112001EE8F4 /* Jax.jpg */,
+				F4CBD57316E6F112001EE8F4 /* Kitana.jpg */,
+				F4CBD57416E6F112001EE8F4 /* Kung.jpg */,
+				F4CBD57516E6F112001EE8F4 /* Mileena.jpg */,
+				F4CBD57616E6F112001EE8F4 /* Noob.jpg */,
+				F4CBD57716E6F112001EE8F4 /* Onaga.jpg */,
+				F4CBD57816E6F112001EE8F4 /* Rain.jpg */,
+				F4CBD57916E6F112001EE8F4 /* Scorpion.jpg */,
+				F4CBD57A16E6F112001EE8F4 /* Shao.jpg */,
+				F4CBD57B16E6F112001EE8F4 /* Sheeva.jpg */,
+				F4CBD57C16E6F112001EE8F4 /* Shinnok.jpg */,
+				F4CBD57D16E6F112001EE8F4 /* Sindel.jpg */,
+				F4CBD57E16E6F112001EE8F4 /* Smoke.jpg */,
+				F4CBD57F16E6F112001EE8F4 /* Stryker.jpg */,
+				F4CBD58016E6F112001EE8F4 /* Tanya.jpg */,
+				F4CBD58116E6F112001EE8F4 /* Zero.jpg */,
 				F41383C716E5A7B20031EE97 /* AppDelegate.h */,
 				F41383C816E5A7B20031EE97 /* AppDelegate.m */,
 				F41383D016E5A7B20031EE97 /* ViewController.h */,
@@ -172,6 +232,26 @@
 				F41383CF16E5A7B20031EE97 /* Default-568h@2x.png in Resources */,
 				F41383D516E5A7B20031EE97 /* ViewController.xib in Resources */,
 				F41383E416E5A83B0031EE97 /* SecondViewController.xib in Resources */,
+				F4CBD58216E6F112001EE8F4 /* Ashrah.jpg in Resources */,
+				F4CBD58316E6F112001EE8F4 /* Baraka.jpg in Resources */,
+				F4CBD58416E6F112001EE8F4 /* Cage.jpg in Resources */,
+				F4CBD58516E6F112001EE8F4 /* Jade.jpg in Resources */,
+				F4CBD58616E6F112001EE8F4 /* Jax.jpg in Resources */,
+				F4CBD58716E6F112001EE8F4 /* Kitana.jpg in Resources */,
+				F4CBD58816E6F112001EE8F4 /* Kung.jpg in Resources */,
+				F4CBD58916E6F112001EE8F4 /* Mileena.jpg in Resources */,
+				F4CBD58A16E6F112001EE8F4 /* Noob.jpg in Resources */,
+				F4CBD58B16E6F112001EE8F4 /* Onaga.jpg in Resources */,
+				F4CBD58C16E6F112001EE8F4 /* Rain.jpg in Resources */,
+				F4CBD58D16E6F112001EE8F4 /* Scorpion.jpg in Resources */,
+				F4CBD58E16E6F112001EE8F4 /* Shao.jpg in Resources */,
+				F4CBD58F16E6F112001EE8F4 /* Sheeva.jpg in Resources */,
+				F4CBD59016E6F112001EE8F4 /* Shinnok.jpg in Resources */,
+				F4CBD59116E6F112001EE8F4 /* Sindel.jpg in Resources */,
+				F4CBD59216E6F112001EE8F4 /* Smoke.jpg in Resources */,
+				F4CBD59316E6F112001EE8F4 /* Stryker.jpg in Resources */,
+				F4CBD59416E6F112001EE8F4 /* Tanya.jpg in Resources */,
+				F4CBD59516E6F112001EE8F4 /* Zero.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +386,7 @@
 				F41383DA16E5A7B20031EE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

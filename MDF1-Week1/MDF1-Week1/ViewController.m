@@ -20,7 +20,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //List for TableView
-    theList = [NSArray arrayWithObjects: @"Johnny Cage", @"Scorpion", @"Sub-Zero", @"Jade", @"Kitana", @"Mileena", @"Smoke", @"Kung Lao", @"Sheeva", @"Sindel", @"Stryker", @"Shinnok", @"Tanya", @"Ashrah", @"Onaga", @"Baraka", @"Noob Saibot", @"Shao Khan", @"Jax", @"Rain", nil];
+    theList = [[NSArray alloc] initWithObjects: @"Johnny Cage", @"Scorpion", @"Sub-Zero", @"Jade", @"Kitana", @"Mileena", @"Smoke", @"Kung Lao", @"Sheeva", @"Sindel", @"Stryker", @"Shinnok", @"Tanya", @"Ashrah", @"Onaga", @"Baraka", @"Noob Saibot", @"Shao Khan", @"Jax", @"Rain", nil];
+    
+    theImage = [[NSArray alloc] initWithObjects:@"Cage.jpg", @"Scorpion.jpg", @"Zero.jpg", @"Jade.jpg",@"Kitana.jpg", @"Mileena.jpg", @"Smoke.jpg", @"Kung.jpg", @"Sheeva.jpg", @"Sindel.jpg", @"Stryker.jpg", @"Shinnok.jpg", @"Tanya.jpg", @"Ashrah.jpg", @"Onaga.jpg", @"Baraka.jpg", @"Noob.jpg", @"Shao.jpg", @"Jax.jpg", @"Rain.jpg", nil];
 }
 
     //Counts items in the array
@@ -28,6 +30,7 @@
 {
     return [theList count];
 }
+
 
     //Displays the data in the TableView
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -42,6 +45,10 @@
     }
     
     cell.textLabel.text = [theList objectAtIndex:indexPath.row];
+    
+
+    cell.imageView.image = [UIImage imageNamed:[theImage objectAtIndex:indexPath.row]];
+
     return cell;
 }
 
